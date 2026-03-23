@@ -521,8 +521,10 @@ const docTemplate = `{
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
-	Version:          "1.0",
-	Host:             "localhost:7070",
+	Version: "1.0",
+	// Host:             "localhost:8080", // localhost
+	// Host:             "localhost:7070", // docker localhost
+	Host:             "go-sample-api-deployed-0cy5.onrender.com", // Render
 	BasePath:         "/",
 	Schemes:          []string{},
 	Title:            "Movies API with GO and PostgreSQL",

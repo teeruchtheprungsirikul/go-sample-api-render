@@ -15,7 +15,7 @@
         },
         "version": "1.0"
     },
-    "host": "localhost:7070",
+    "host": "go-sample-api-deployed-0cy5.onrender.com", 
     "basePath": "/",
     "paths": {
         "/api/v1/": {
